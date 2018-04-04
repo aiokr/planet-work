@@ -1,14 +1,14 @@
 # planet.js configuration
 
 planet:
-  name: "neoFelhz's Planet" # Site title
-  tagline: "neoFelhz 的伙伴星球" # Site tagline
-  description: "neoFelhz 的伙伴星球" # Site description
-  link: https://planet.nfz.moe # Site link, do NOT include tailing slash '/'
+  name: "aiokr's Planet" # Site title
+  tagline: "aiokr 的伙伴星球" # Site tagline
+  description: "aiokr 的伙伴星球" # Site description
+  link: https://planet.aiokr.top # Site link, do NOT include tailing slash '/'
   locale: zh-CN # Site locale
-  owner_name: neoFelhz # Your name
-  owner_email: neoFelhz@gmail.com # Your email
-  theme: mdui # theme under templates directory
+  owner_name: aiokr # Your name
+  owner_email: hiaiokr@gmail.com # Your email
+  theme: material # theme under templates directory
   output: public # output directory, make sure your web server can read in this place
   timeout: 15 # request timeout in seconds
   items: 150 # how many posts should be displayed?
@@ -85,12 +85,6 @@ secure:
   allowProtocolRelative: true
 
 people:
-- name: neoFelhz
-  link: https://blog.nfz.moe/atom.xml
-  avatar: https://bbs-static.nfz.yecdn.com/avatar/avatar.png
-- name: SkyEdge
-  link: https://liyin.date/rss2.xml
-  avatar: https://bbs-static.nfz.yecdn.com/links/liyin.date.png
-- name: Viosey
-  link: https://blog.viosey.com/atom.xml
-  avatar: https://bbs-static.nfz.yecdn.com/links/viosey.com.png
+- name: aiokr
+  link: https://i.aiokr.com/feed/
+  avatar: https://secure.gravatar.com/avatar/f17e6a2f95f817acc509242cccb6c4d2?s=220&r=X&d=mm
