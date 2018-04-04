@@ -5,15 +5,9 @@ node_js:
 install:
   - npm install
 script:
-  - chmod +x ./deploy.sh
   - npm run build
   - \cp -f CNAME public/CNAME
   - \cp -f favicon.ico public/favicon.ico
-  - sed -i 's|data-src="//|data-original="https://i1.wp.com/|g' public/index.html
-  - sed -i 's|data-src="http://|data-original="https://i1.wp.com/|g' public/index.html
-  - sed -i 's|data-src="https://|data-original="https://i1.wp.com/|g' public/index.html
-  - sed -i 's|">Continue reading...|" rel="nofollow noopener">Continue reading...|g' public/index.html
-  - ./deploy.sh > /dev/null
  after_script:
   - git init
   - git config --global push.default matching
