@@ -1,6 +1,6 @@
-# [neoFelhz's Planet](https://planet.nfz.moe)
+# [aiokr's Planet](https://planet.aiokr.top/)
 
-- [RSS](https://planet.nfz.moe/rss.xml)
-- [Atom](https://planet.nfz.moe/atom.xml)
+[![Build Status](https://travis-ci.org/aiokr/planet-work.svg?branch=master)](https://travis-ci.org/aiokr/planet-work)
 
-我的伙伴星球仅供个人订阅我认为有用的 RSS 信息，以订阅我博客的友链为主，对被订阅站点的 SEO 和 PV/UV 并无直接增益。请知悉。
+- [RSS](https://planet.aiokr.top/rss.xml)
+- [Atom](https://planet.aiokr.top//atom.xml)
