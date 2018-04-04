@@ -10,7 +10,7 @@ after_script:
   - git init
   - git config --global user.name "${GitHubUser}"
   - git config --global user.email "${GitHubEMail}"
-  - git clone https://${GitHubKEY}@github.com/${GitHubUser}/planet-page.git
+  - git fetch https://${GitHubKEY}@github.com/${GitHubUser}/planet-page.git --unshallow upstream
   - git add --all .
   - git commit -m "Auto Builder of Planet"
   - git push --force "https://${GitHubKEY}@github.com/${GitHubUser}/planet-page.git" master:master
