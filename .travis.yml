@@ -12,7 +12,7 @@ after_script:
   - git config --global user.name "${GitHubUser}"
   - git add --all .
   - git commit -m "Auto Builder of Planet"
-  - git push --quiet --force "https://${GitHubKEY}@${GH_REF}" master:master
+  - git push --force "https://${GitHubKEY}@${GH_REF}" master:master
 cache:
   directories:
     - node_modules
