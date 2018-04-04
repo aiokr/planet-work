@@ -8,7 +8,6 @@ script:
   - npm run build
  after_script:
   - git init
-  - git config --global push.default matching
   - git config --global user.email "${GitHubEMail}"
   - git config --global user.name "${GitHubUser}"
   - git add --all .
