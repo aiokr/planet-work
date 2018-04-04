@@ -6,8 +6,6 @@ install:
   - npm install
 script:
   - npm run build
-  - \cp -f CNAME public/CNAME
-  - \cp -f favicon.ico public/favicon.ico
  after_script:
   - git init
   - git config --global push.default matching
