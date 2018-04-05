@@ -72,7 +72,7 @@
                           <% } else { %>
                             <%- p.summary %>
                           <% } %>
-                        <div><p class="post-meta">[<em><a href="<%= p.link %> target="_blank"">Continue reading...</a></em>]</p></div>
+                        <div><p class="post-meta">[<em><a href="<%= p.link %>" target="_blank">Continue reading...</a></em>]</p></div>
                         <% } else { %>
                           <% if(config['planet'].lazyload) { %>
                             <%- p.content.replace(new RegExp('src=','g'),'data-original=') %>
