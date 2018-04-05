@@ -55,7 +55,7 @@ secure:
   - th
   - td
   - caption
-  - img
+  #- img
   - sup
   - sub
   - span
