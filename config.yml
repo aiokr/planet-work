@@ -88,3 +88,9 @@ people:
 - name: aiokr
   link: https://i.aiokr.com/feed/
   avatar: https://secure.gravatar.com/avatar/f17e6a2f95f817acc509242cccb6c4d2?s=220&r=X&d=mm
+- name: KeJun
+  link: https://blog.kejun.space/feed.xml
+  avatar: https://bbs-static.nfz.yecdn.com/links/kejun.space.png
+- name: Halyul
+  link: https://blog.halyul.cc/atom.xml
+  avatar: https://bbs-static.nfz.yecdn.com/links/halyul.com.png
