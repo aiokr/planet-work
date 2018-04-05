@@ -8,7 +8,7 @@ script:
   - chmod +x ./deploy.sh
   - npm run build
   - \cp -f CNAME public/CNAME
-  - \cp -f favicon.ico public/favicon.ico
+  - \cp -f favicon.png public/favicon.png
   - sed -i 's|data-src="//|data-original="https://i1.wp.com/|g' public/index.html
   - sed -i 's|data-src="http://|data-original="https://i1.wp.com/|g' public/index.html
   - sed -i 's|data-src="https://|data-original="https://i1.wp.com/|g' public/index.html
