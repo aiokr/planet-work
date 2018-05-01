@@ -1,6 +1,5 @@
 
 cd ./public
-git init
 git config --global push.default matching
 git config --global user.email "${GitHubEMail}"
 git config --global user.name "${GitHubUser}"
