@@ -4,7 +4,7 @@ planet:
   name: "aiokr's Planet" # Site title
   tagline: "aiokr 的伙伴星球" # Site tagline
   description: "aiokr 的伙伴星球" # Site description
-  link: https://planet.aiokr.top # Site link, do NOT include tailing slash '/'
+  link: https://planet.itypen.app # Site link, do NOT include tailing slash '/'
   locale: zh-CN # Site locale
   owner_name: aiokr # Your name
   owner_email: hiaiokr@gmail.com # Your email
@@ -17,6 +17,11 @@ planet:
   time_format: YYYY MMMM Do h:mm:ss A # See http://momentjs.com/docs/#/displaying/ for details
   ttl: 120 # TimeToLive minutes to cache site feed
   lazyload: true # Use Lazyload for image
+
+people:
+- name: aiokr
+  link: https://itypen.app/atom.xml
+  avatar: https://secure.gravatar.com/avatar/f17e6a2f95f817acc509242cccb6c4d2?s=220&r=X&d=mm
   		  
 secure:
   proxy: # Leave blank if you don't use an http proxy
@@ -83,17 +88,3 @@ secure:
   - ftp
   - mailto
   allowProtocolRelative: true
-
-people:
-- name: aiokr
-  link: https://i.aiokr.com/feed/
-  avatar: https://secure.gravatar.com/avatar/f17e6a2f95f817acc509242cccb6c4d2?s=220&r=X&d=mm
-- name: KeJun
-  link: https://blog.kejun.space/feed.xml
-  avatar: https://avatars0.githubusercontent.com/u/18414281?s=400&v=4
-- name: Halyul
-  link: https://blog.halyul.cc/atom.xml
-  avatar: https://gravatar.com/userimage/113938008/0ffede3b011b3a1725a0bae6b2db2c72.png?size=200
-- name: 冰凌胧月的小窝
-  link: https://imiku.me/feed/
-  avatar: https://i.loli.net/2018/04/05/5ac61e5347019.png
